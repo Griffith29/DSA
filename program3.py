@@ -33,6 +33,3 @@ print(len(name))
 
 Price = str(input("Enter the Price of the Object:"))
 print(Price.count("$"))
-
-str6 = "fsf"
-print(str6)
