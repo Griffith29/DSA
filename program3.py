@@ -28,8 +28,37 @@ print(str5.count("o"))
 
 #Example
 
-name = str(input("Enter your name:"))
-print(len(name))
+# name = str(input("Enter your name:"))
+# print(len(name))
 
-Price = str(input("Enter the Price of the Object:"))
-print(Price.count("$"))
+# Price = str(input("Enter the Price of the Object:"))
+# print(Price.count("$"))
+# elif is used only when the first statement is true.
+# else is written only once.
+
+#Check if the number is odd or even
+
+num1 = int(input("Enter the number:"))
+if(num1 % 2 == 0):
+    print("The number is Even")
+else:
+    print("The number is Odd")
+
+#Greatest of Three numbers
+
+num2 = int(input("Enter the second number:"))
+num3 = int(input("Enter the third number:"))
+if(num1 >= num2 and num1 >= num3):
+    print("The num1 is the greatest of all three elements")
+elif(num2 >= num3):
+    print("The num2 is the greatest of all three elements")
+else:
+    print("The num3 is thre greatest of all three elements")
+
+# #Check if the number is a multiple of 7
+
+# num4 = int(input("Enter the number: "))
+# if(num4 % 7 == 0):
+#     print("The number is a multiple of 7")
+# else:
+#     print("The number is not a multiple of 7")
